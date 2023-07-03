@@ -87,6 +87,7 @@ let bar = [
         name: "Textarea 文本域",
         src: "textarea",
       },
+     
     ],
   },
   {
@@ -99,6 +100,10 @@ let bar = [
       {
         name: "Badge 徽标数",
         src: "badge",
+      },
+      {
+        name: "Modal 模态框",
+        src: "modal",
       },
     ],
   },

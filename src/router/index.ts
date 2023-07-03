@@ -63,8 +63,7 @@ const router = createRouter({
         }, {
           path: 'switch',
           component: () => import('../components/units/switchs.vue')
-        }
-        , {
+        }, {
           path: 'inputnumber',
           component: () => import('../components/units/inputnumber.vue')
         }, {
@@ -76,6 +75,9 @@ const router = createRouter({
         }, {
           path: 'rate',
           component: () => import('../components/units/rates.vue')
+        }, {
+          path: 'modal',
+          component: () => import('../components/units/modal.vue')
         }
       ]
     },
